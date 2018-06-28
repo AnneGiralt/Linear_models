@@ -35,8 +35,6 @@ class RegressionLineaire():
             print('coeff gradient descent: \n {}'.format(self.coeff))
         
         # Stockastic descent gradient with random batchs(size 1 by default):
-        """if X_val is not None:
-            X_val = np.concatenate((np.full((X_val.shape[0],1),1), X_val), axis=1)"""
             
         if self.gd and self.sgd:
             p = X.shape[1]
